@@ -1,0 +1,94 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/productFragment"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- TODO: Update blank fragment partial_contact -->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.24"
+    android:orientation="vertical">
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/productFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="11dp"
+            android:layout_marginLeft="11dp"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_add_black_24dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+<!--<android.support.design.widget.CoordinatorLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--tools:context="com.eccelor.bartit.Fragments.ProductFragment">-->
+
+<!--&lt;!&ndash; TODO: Update blank fragment partial_contact &ndash;&gt;-->
+
+
+<!--<android.support.design.widget.TextInputLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:theme="@style/AppTheme">-->
+    <!--<EditText-->
+        <!--android:id="@+id/textName"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:hint="Enter Name"-->
+        <!--android:inputType="number" />-->
+<!--</android.support.design.widget.TextInputLayout>-->
+<!--<android.support.design.widget.TextInputLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="90dp"-->
+    <!--android:theme="@style/AppTheme">-->
+    <!--<EditText-->
+        <!--android:id="@+id/textAddress"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:hint="Enter Address"-->
+        <!--android:inputType="number" />-->
+<!--</android.support.design.widget.TextInputLayout>-->
+
+<!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/productFab"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom|end"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginBottom="11dp"-->
+    <!--android:layout_marginLeft="11dp"-->
+    <!--app:backgroundTint="@color/colorPrimary"-->
+    <!--android:layout_margin="@dimen/fab_margin"-->
+    <!--android:src="@drawable/ic_check_black_24dp" />-->
+
+<!--</android.support.design.widget.CoordinatorLayout>-->

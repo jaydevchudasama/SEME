@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment partial_contact -->
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/listviewContact"
+            />
+
+
+
+
+
+</LinearLayout>
+
+
+
+<!--<android.support.v7.widget.RecyclerView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:id="@+id/listviewContacts">-->
+
+<!--</android.support.v7.widget.RecyclerView>-->
+
+<!--<android.support.v4.widget.SwipeRefreshLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:id="@+id/swipRefreshLayout"-->
+<!--android:layout_height="wrap_content">-->
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
